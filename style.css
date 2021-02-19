@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+*{
+box-sizing:border-box;
+
+}
+
+body{
+font-family: "Ubuntu", "sans-serif";
+display: flex;
+margin:0;
+align-items:center;
+height:100vh;
+justify-content: center;
+overflow:hidden;
+}
+
+
+.bg{
+    background:url('Images/Car.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+
+.loading-text{
+    font-size: 50px;
+    color: white;
+}
